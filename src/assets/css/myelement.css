@@ -1,0 +1,229 @@
+.el-table .cell {
+    white-space: nowrap;
+    cursor: default;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color: #f0f1f2 !important;
+}
+.el-table__body tr.current-row>td {
+  background-color: #e5e5e5 !important;
+}
+
+.el-drawer .el-table .cell{
+  color:rgb(39, 39, 39);
+}
+/* 时间 */
+.el-drawer .el-table td:nth-child(1) {
+  padding-left: 10px !important;
+}
+.el-drawer .el-table td:nth-child(3) .cell {
+  color: #aaa ;
+}
+.el-drawer .el-table td:nth-child(4) .cell {
+  cursor: pointer;
+}
+.el-drawer .el-table td, .el-table th {
+  padding: 6px 0;
+}
+
+.el-drawer .el-table td {
+  border: none;
+}
+.el-drawer .el-table {
+  border: none;
+}
+
+.preList .el-table {
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.preList .el-table td:nth-child(3) .cell {
+  color: #aaa ;
+}
+.preList .el-table td {
+  border: none;
+}
+.preList .el-table--border::after, .el-table--group::after, .el-table::before {
+  display: none;
+}
+/* 导航栏 */
+.el-menu-item {
+    font-size: 16px;
+}
+.el-menu-item.is-active {
+    font-size: 18px;
+    border-bottom-color: rgb(83,139,156) !important;
+}
+/* 分页样式 */
+.el-pager {
+    font-weight: normal;
+}
+.el-pager li.active {
+  color: #538B9C;
+  cursor: default;
+  font-weight: bold;
+}
+.el-pagination .el-pager li:hover {
+  color: #BCD8DE;
+}
+.el-pagination .el-pager li:not(.disabled):hover {
+  color: #BCD8DE;
+}
+/* mybtn1按钮颜色 */
+.el-button--mybtn1.is-active,
+.el-button--mybtn1:active {
+  border-color: #70B879;
+}
+
+.el-button--mybtn1:focus {
+  background-color: #fff;
+  color: #82a57e;
+  border-color: #82a57e;
+}
+.el-button--mybtn1:hover {
+  background-color: #eeeeee;
+  border-color: #82a57e;
+  color: #7fd18a;
+}
+
+.el-button--mybtn1 {
+  border-color: #82a57e;
+  color: #82a57e;
+}
+/* mybtn2按钮颜色 */
+.el-button--mybtn2.is-active,
+.el-button--mybtn2:active {
+  border-color: #70B879;
+}
+
+.el-button--mybtn2:focus {
+  border-color: #8de999;
+  color: #fff;
+  background-color: #70B879;
+}
+.el-button--mybtn2:hover {
+  background-color: #fff;
+  border-color: #8de999;
+  color: #8de999;
+}
+
+.el-button--mybtn2 {
+  border-color: #8de999;
+  /* border-radius: 2em; */
+  color: #fff;
+  background-color: #70B879;
+}
+/* tabs样式 */
+.el-tabs__active-bar {
+  background-color: #82a57e;
+}
+.el-tabs__item:hover {
+  color: black;
+}
+.el-tabs__item.is-active {
+  color: black!important;
+  font-weight: 700;
+}
+.el-tabs__item {
+  font-size: 16px;
+}
+
+/* 播放进度条 */
+.el-slider__bar {
+  background-color: #8de999 !important;
+}
+
+.el-slider__button {
+  border: 1px solid #ccc !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.el-slider__runway {
+  height: 5px ! important;
+}
+
+.el-slider__bar {
+  height: 5px !important;
+}
+
+/* 播放列表抽屉高度 */
+.el-drawer.ltr, .el-drawer.rtl, .el-drawer__container {
+  height: calc(100vh - 90px) !important;
+}
+
+.el-drawer__wrapper {
+  bottom: auto !important;
+}
+.el-drawer__body {
+  overflow: auto;
+  /* overflow-x: auto; */
+}
+
+/*隐藏滚动条*/
+.el-drawer__container ::-webkit-scrollbar{
+  display: none;
+}
+
+.el-radio__input{
+  display: none !important;
+}
+
+/* tag按钮 */
+.el-button--tagbtn.is-active,
+.el-button--tagbtn:active {
+  border-color: #70B879;
+}
+
+.el-button--tagbtn:focus {
+  background-color: #fff;
+  color: #82a57e;
+  border-color: #82a57e;
+}
+.el-button--tagbtn:hover {
+  background-color: #eeeeee;
+  border-color: #82a57e;
+  color: #7fd18a;
+}
+
+.el-button--tagbtn {
+  border-color: #82a57e;
+  color: #82a57e;
+}
+
+/* radio选中后的字体颜色 */
+.el-radio__input.is-checked + .el-radio__label {
+  color: #70B879 !important;
+  
+}
+.el-radio.is-bordered.is-checked {
+  border-color: #70B879 !important;
+}
+
+.el-radio__label {
+  font-size: 14px !important;
+  line-height: 30px !important;
+  height: 30px !important;
+  padding: 0 15px !important;
+}
+
+.playing .cell{
+  color: #70B879 !important;
+}
+
+* {
+  /* 火狐 */
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ccc;
+}
